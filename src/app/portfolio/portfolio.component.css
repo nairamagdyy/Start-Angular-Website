@@ -27,3 +27,15 @@ h2{
 .for-hover:hover .bg-green{
     opacity: 1;
 }
+
+.bg {
+    height: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding:0 0 270px;
+}
+
+.x-btn{
+    position: absolute;
+    top: 6%;
+    right: 18%;
+}

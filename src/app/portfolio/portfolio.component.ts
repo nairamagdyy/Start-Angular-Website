@@ -16,10 +16,13 @@ export class PortfolioComponent implements OnInit {
     { titlePortfolio: 'LOCKED SAFE', paragraphPortfolio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.', imagePortfolio: 'assets/images/safe.png' },
     { titlePortfolio: 'SUBMARINE', paragraphPortfolio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.', imagePortfolio: 'assets/images/submarine.png' },
   ]
+  myIndex:any;
+  displayPortfolio(data:any){
+    this.myIndex = data;
+  }
 
-  displayPortfolio(index:any){
-    
-
+  close(){
+    this.myIndex = "";
   }
   constructor() { }
 
